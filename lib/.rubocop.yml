@@ -1,0 +1,8 @@
+Style/Documentation:
+  Enabled: false
+AllCops:
+  NewCops: enable
+  SuggestExtensions: false
+Metrics/BlockLength:
+  Exclude:
+    - '**/*_spec.rb'
